@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints
+
+# Data files (raw QM9 archives are large; keep them out of version control)
+# Ignore the contents but keep the folder structure via its README placeholder.
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+*.xyz
+*.tar.bz2
+*.tar.gz
+*.bz2
+*.gz
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Environment / secrets
+.env
